@@ -1,0 +1,14 @@
+// SPDX-FileCopyrightText: Nicolas Fella <nicolas.fella@gmx.de>
+// SPDX-License-Identifier: LGPL-2.1-or-later
+
+*.kdev4
+.clang-format
+build
+
+# LSP & IDE
+/.clang-format
+/compile_commands.json
+.clangd
+.cache
+.idea
+/cmake-build*
